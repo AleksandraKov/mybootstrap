@@ -9,7 +9,6 @@
 // `$body-color` or write more CSS that override's Bootstrap's CSS like so:
 // `body { color: red; }`.
 
-
 //
 // Bring in Bootstrap
 //
@@ -28,16 +27,16 @@
 $enable-gradients: true;
 $enable-shadows: true;
 
-$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+$offcanvas-box-shadow: 0 1rem 3rem rgba(183, 10, 10, 0.545);
 
 // Include functions first
 @import "bootstrap/scss/functions";
 
 // Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
-$success: #7952b3;
+$body-color: #dc1616;
+$body-bg: #d3f0a7;
+$border-radius: 0.4rem;
+$success: #6b0ff6;
 
 // Required
 @import "bootstrap/scss/variables";
@@ -83,7 +82,6 @@ $success: #7952b3;
 
 // Utilities
 @import "bootstrap/scss/utilities/api";
-
 
 //
 // Custom styles
